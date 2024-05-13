@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id "io.github.file5.guidesigner" version "1.0.2"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.intellij:forms_rt:7.0.3'
+    implementation 'org.hibernate:hibernate-core:6.5.0.Final'
+    implementation 'org.postgresql:postgresql:42.7.3'
+    implementation 'org.hibernate.orm:hibernate-community-dialects:6.5.0.Final'
+    implementation 'com.github.lgooddatepicker:LGoodDatePicker:11.2.1'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+
+jar {
+    def jars = configurations.runtimeClasspath.files.collect { "lib/$it.name" }
+    manifest {
+        attributes "Main-Class": "app.App",
+                "Class-Path": jars.join(' ')
+    }
+
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+
+    from {
+        configurations.runtimeClasspath.files.collect { zipTree(it) }
+    }
+}
+
+tasks.register('copyDependecies', Copy) {
+    from(configurations.runtimeClasspath.files)
+    into("$buildDir/libs/lib")
+}
+
+jar.dependsOn copyDependecies
