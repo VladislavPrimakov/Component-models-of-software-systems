@@ -1,0 +1,27 @@
+plugins {
+    id "java"
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.hibernate:hibernate-core:6.5.0.Final'
+    implementation 'org.postgresql:postgresql:42.7.3'
+    implementation 'org.hibernate.orm:hibernate-community-dialects:6.5.0.Final'
+    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
+    implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1'
+    implementation 'jakarta.ejb:jakarta.ejb-api:4.0.1'
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_22
+    targetCompatibility = JavaVersion.VERSION_22
+}
+
+war {
+    archiveFileName = "ROOT.war"
+}
