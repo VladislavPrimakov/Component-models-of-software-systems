@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Task 3</title>
+</head>
+<body>
+    @if (@User?.Identity?.IsAuthenticated == true)
+    {
+        <div>
+            <a asp-controller="Products" asp-action="Index">View Products</a>
+            @if (@User.FindFirst("name")?.Value == "admin")
+            {
+                <a asp-controller="Products" asp-action="Add">Add product</a>
+            }
+            @User.FindFirst("name")?.Value | @User.FindFirst("role")?.Value
+
+            <button><a asp-controller="Home" asp-action="Logout">Logout</a></button>
+        </div>
+    }
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

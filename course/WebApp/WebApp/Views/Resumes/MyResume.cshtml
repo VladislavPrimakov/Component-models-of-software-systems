@@ -1,0 +1,55 @@
+﻿@using WebApp.ViewModels
+@using WebApp.Models
+
+@model ResumeViewModel
+
+@{
+    ViewBag.Title = "My resume";
+}
+
+@if (Model.Resume != null)
+{
+    <div class="justify-content-center">
+        <form method="post" asp-controller="Resumes" asp-action="MyResume">
+            <div class="text-danger" asp-validation-summary="All"></div>
+            <input type="hidden" asp-for="Resume.ResumeId"></input>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.Title"></label>
+                <input class="col-6" type="text" asp-for="Resume.Title"></input>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.Description"></label>
+                <textarea class="col-6" asp-for="Resume.Description"></textarea>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.Education"></label>
+                <textarea class="col-6" asp-for="Resume.Education"></textarea>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.Expirience"></label>
+                <input class="col-6" type="number" asp-for="Resume.Expirience"></input
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.CategoryId"></label>
+                <select class="col-6" asp-for="Resume.CategoryId" asp-items="@(new SelectList(Model.Categories, nameof(Category.CategoryId), nameof(Category.Name)))"></select>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.LocationId"></label>
+                <select class="col-6" asp-for="Resume.LocationId" asp-items="@(new SelectList(Model.Locations, nameof(Location.LocationId), nameof(Location.Name)))"></select>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.IsActive"></label>
+                <input class="col-6" type="checkbox" asp-for="Resume.IsActive"></input>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Resume.UpdatedAt"></label>
+                <input class="col-6" type="date" readonly asp-for="Resume.UpdatedAt"></input>
+            </div>
+            <div class="row my-1">
+                <div class="d-flex justify-content-center col-8">
+                    <input class="btn btn-primary" type="submit" value="Update"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+}

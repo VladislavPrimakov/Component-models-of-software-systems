@@ -180,6 +180,7 @@ public class ProductService {
         return res;
     }
 
+    @Lock(LockType.READ)
     public boolean updateProductById(Optional<String> id, Optional<String> count) {
         if (id.isPresent()) {
             if (id.get().isEmpty()) {

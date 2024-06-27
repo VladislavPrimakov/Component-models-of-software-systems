@@ -1,0 +1,33 @@
+﻿@model ProductViewModel
+@{
+    string action = ViewBag.Action ?? string.Empty;
+}
+<form method="post" asp-controller="Products" asp-action="@action">
+    <div asp-validation-summary="All"></div>
+    @if (action?.ToLower() == "edit")
+    {
+        <input type="hidden" asp-for="Product.ProductId" />
+
+    }
+        <div>
+            <label asp-for="Product.Name"></label>
+            <input type="text" asp-for="Product.Name"></input>
+        </div>
+        <div>
+            <label asp-for="Product.Price"></label>
+            <input type="number" asp-for="Product.Price"></input>
+        </div>
+        <div>
+            <label asp-for="Product.Count"></label>
+            <input type="number" step="1" asp-for="Product.Count"></input>
+        </div>
+        <div>
+            <label asp-for="Product.ExpirationDate"></label>
+            <input type="date" asp-for="Product.ExpirationDate"></input>
+        </div>
+        <div>
+            <label asp-for="Product.PlacementId"></label>
+            <select asp-for="Product.PlacementId" asp-items="@(new SelectList(Model.Placements, nameof(Placement.PlacementId), nameof(Placement.Name)))"></select>
+        </div>
+        <button type="submit">@(action?.ToLower() == "edit" ? "Edit" : "Add")</button>
+</form>

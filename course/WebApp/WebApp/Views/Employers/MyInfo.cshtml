@@ -1,0 +1,34 @@
+﻿@using WebApp.Models
+
+@model Employer
+
+@{
+    ViewBag.Title = "My info";
+}
+
+@if (Model != null)
+{
+    <div class="justify-content-center">
+        <form method="post" asp-controller="Employers" asp-action="MyInfo">
+            <div class="text-danger" asp-validation-summary="All"></div>
+            <input type="hidden" asp-for="EmployerId"></input>
+            <div class="row my-1">
+                <label class="col-2" asp-for="CompanyName"></label>
+                <input class="col-6" type="text" asp-for="CompanyName"></input>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="CompanyDescription"></label>
+                <textarea class="col-6" asp-for="CompanyDescription"></textarea>
+            </div>
+            <div class="row my-1">
+                <label class="col-2" asp-for="Contacts"></label>
+                <textarea class="col-6" asp-for="Contacts"></textarea>
+            </div>
+            <div class="row my-1">
+                <div class="d-flex justify-content-center col-8">
+                    <input class="btn btn-primary" type="submit" value="Update"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+}

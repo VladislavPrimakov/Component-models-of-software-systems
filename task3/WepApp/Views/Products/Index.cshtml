@@ -1,0 +1,58 @@
+﻿@model ProductsViewModel
+
+@{
+    string? role = @User.FindFirst("role")?.Value;
+}
+
+@if (role == "admin") {
+    <form method="get">
+        <div asp-validation-summary="All"></div>
+        <div>
+            <label asp-for="InStock"></label>
+            <input type="checkbox" asp-for="InStock"></input>
+        </div>
+        <div>
+            <label asp-for="ExpiredDate"></label>
+            <input type="date" asp-for="ExpiredDate"></input>
+        </div>
+        <div>
+            <label asp-for="PlacementId"></label>
+             <select asp-for="PlacementId">
+             <option value="0">All</option>
+                @foreach (var placement in Model.Placements!)
+                {
+                    <option value="@placement.PlacementId">@placement.Name</option>
+                }
+             </select>
+        </div>
+        <div>
+            <button type="submit">Search</button>
+        </div>
+    </form>
+}
+<table border="1">
+    <thead>
+        <td>Product Name</td>
+        <td>Count</td>
+        <td>Price</td>
+        <td>Expiration Date</td>
+        <td>Placement</td>
+        @if (role == "admin")
+        {
+            <td></td>
+            <td></td>
+        }
+    </thead>
+    @foreach (var product in Model.Products)
+    {
+        <td>@product.Name</td>
+        <td>@product.Count</td>
+        <td>@product.Price</td>
+        <td>@product.ExpirationDate</td>
+        <td>@product.Placement?.Name</td>
+        @if (@role == "admin") {
+            <td><a asp-controller="Products" asp-action="Edit" asp-route-id="@product.ProductId">Edit</a></td>
+            <td><a asp-controller="Products" asp-action="Delete" asp-route-id="@product.ProductId">Delete</a></td>
+        }
+    }
+</table>
