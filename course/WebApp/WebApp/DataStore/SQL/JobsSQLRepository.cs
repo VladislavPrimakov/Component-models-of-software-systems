@@ -17,6 +17,8 @@ namespace WebApp.DataStore.SQL
         {
             int employerId = db.Employers.Where(e => e.UserId == userId).Select(e => e.EmployerId).FirstOrDefault();
             job.EmployerId = employerId;
+            var now = DateTime.Now;
+            job.PostedAt = new DateOnly(now.Year, now.Month, now.Day);
             db.Jobs.Add(job);
             db.SaveChanges();
         }
@@ -40,6 +42,11 @@ namespace WebApp.DataStore.SQL
                 .Where(j => j.EmployerId ==  employerId)
                 .OrderBy(j => j.PostedAt)
                 .ToList();
+        }
+
+        public Job? GetJobById(int jobId)
+        {
+            return db.Jobs.Find(jobId);
         }
 
         public void UpdateJob(Job job)

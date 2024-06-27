@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cbYgCy5S0wbKjIMjmbE2ap7vMkfqnfscbcFzSsfXYnE=",
+  "Hash": "eusuwCLhX+5INJGlHE3tWRNueb4UovyRpkEXCOJqYLQ=",
   "Source": "WepApp",
   "BasePath": "_content/WepApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WepApp\\wwwroot",
       "Source": "WepApp",
-      "ContentRoot": "C:\\Projects\\Component models of software systems\\task3\\WepApp\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\wwwroot\\",
       "BasePath": "_content/WepApp",
       "Pattern": "**"
     }

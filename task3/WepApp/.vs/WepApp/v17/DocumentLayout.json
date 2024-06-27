@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Component models of software systems\\task3\\WepApp\\",
+  "WorkspaceRootPath": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component models of software systems\\task3\\wepapp\\datastore\\sql\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\datastore\\sql\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:datastore\\sql\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\views\\products\\_productform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:views\\products\\_productform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\datastore\\sql\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:datastore\\sql\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\datastore\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:datastore\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|c:\\projects\\component-models-of-software-systems\\task3\\wepapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B883F686-62ED-4D3F-98D7-66D9CD636D54}|WepApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +54,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T11:33:23.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ProductForm.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Views\\Products\\_ProductForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\_ProductForm.cshtml",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Views\\Products\\_ProductForm.cshtml",
+              "RelativeToolTip": "Views\\Products\\_ProductForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T11:32:37.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:30:52.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:30:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\task3\\WepApp\\DataStore\\SQL\\ProductSQLRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\SQL\\ProductSQLRepository.cs",
               "RelativeDocumentMoniker": "DataStore\\SQL\\ProductSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\task3\\WepApp\\DataStore\\SQL\\ProductSQLRepository.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\SQL\\ProductSQLRepository.cs",
               "RelativeToolTip": "DataStore\\SQL\\ProductSQLRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAArwBIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:05:27.398Z",
+              "WhenOpened": "2024-06-27T11:29:05.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\SQL\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "DataStore\\SQL\\ApplicationContext.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\SQL\\ApplicationContext.cs",
+              "RelativeToolTip": "DataStore\\SQL\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:28:42.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DataStore\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\DataStore\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "DataStore\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:28:18.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:27:21.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_config.json",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\_config.json",
+              "RelativeDocumentMoniker": "_config.json",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\_config.json",
+              "RelativeToolTip": "_config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T09:16:10.791Z",
               "EditorCaption": ""
             }
           ]

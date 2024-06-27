@@ -1,182 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\Component models of software systems\\course\\WebApp\\",
+  "WorkspaceRootPath": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\locationssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\locationssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\categoriessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\categoriessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\jobssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\jobssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component-models-of-software-systems\\course\\webapp\\webapp\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\controllers\\resumescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\resumescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component-models-of-software-systems\\course\\webapp\\webapp\\datastore\\sql\\jobssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\jobssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\ijobsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\ijobsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\controllers\\employerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\employerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\employerssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\employerssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\employers\\myinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\employers\\myinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\resumes\\myresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\resumes\\myresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\resumessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\resumessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\iemployersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\iemployersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\iresumesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\iresumesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\userssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\userssqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Migrations\\20240627073400_Init6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApp\\Migrations\\20240627073400_Init6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\viewmodels\\resumeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\resumeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\irolesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\irolesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\sql\\rolessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\sql\\rolessqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\datastore\\interfaces\\ilocationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\datastore\\interfaces\\ilocationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component-models-of-software-systems\\course\\webapp\\webapp\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component-models-of-software-systems\\course\\webapp\\webapp\\_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\jobapplicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\jobapplicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\viewmodels\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component models of software systems\\course\\webapp\\webapp\\migrations\\20240627034507_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\migrations\\20240627034507_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|c:\\projects\\component-models-of-software-systems\\course\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AA1794E-F91E-43D2-849A-E93660C3DF7F}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -194,560 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResumesController.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\ResumesController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\ResumesController.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\ResumesController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\ResumesController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB4AAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:53:32.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Resume.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Resume.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Resume.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Resume.cs",
-              "RelativeToolTip": "WebApp\\Models\\Resume.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:08:16.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResumesSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\ResumesSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\ResumesSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\ResumesSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\ResumesSQLRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:22:17.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp\\Program.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Program.cs",
-              "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:18:42.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IEmployersRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IEmployersRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\IEmployersRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IEmployersRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\IEmployersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:59:23.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "JobsController.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\JobsController.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Controllers\\JobsController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\JobsController.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\JobsController.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Controllers\\JobsController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\JobsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:51:57.948Z",
+              "WhenOpened": "2024-06-27T12:38:59.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JobsSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwCgAAAApAAAA",
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Job.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Models\\Job.cs",
+              "RelativeToolTip": "WebApp\\Models\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:17:27.001Z",
+              "WhenOpened": "2024-06-27T12:36:57.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriesSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\CategoriesSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\CategoriesSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\CategoriesSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\CategoriesSQLRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Title": "JobsSQLRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
+              "RelativeToolTip": "WebApp\\DataStore\\SQL\\JobsSQLRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:48:24.999Z",
+              "WhenOpened": "2024-06-27T12:36:25.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LocationsSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\LocationsSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\LocationsSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\LocationsSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\LocationsSQLRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:50:33.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\ApplicationContext.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\ApplicationContext.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\ApplicationContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:33:16.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MyResume.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Resumes\\MyResume.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Resumes\\MyResume.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Resumes\\MyResume.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Resumes\\MyResume.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAADYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T05:19:39.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployersController.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\EmployersController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\EmployersController.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\EmployersController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\EmployersController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:57:04.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IJobsRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IJobsRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\IJobsRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IJobsRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\IJobsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:15:25.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T04:31:33.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployersSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\EmployersSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\EmployersSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\EmployersSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\EmployersSQLRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:00:04.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MyInfo.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Employers\\MyInfo.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Employers\\MyInfo.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Employers\\MyInfo.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Employers\\MyInfo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T08:07:39.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IResumesRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IResumesRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\IResumesRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IResumesRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\IResumesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:21:00.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ICategoriesRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\ICategoriesRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\ICategoriesRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\ICategoriesRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\ICategoriesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:47:33.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:49:53.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsersSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\UsersSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\UsersSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\UsersSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\UsersSQLRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:03:11.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Employer.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Employer.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Employer.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Employer.cs",
-              "RelativeToolTip": "WebApp\\Models\\Employer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:08:37.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240627073400_Init6.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Migrations\\20240627073400_Init6.cs",
-              "RelativeDocumentMoniker": "WebApp\\Migrations\\20240627073400_Init6.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Migrations\\20240627073400_Init6.cs",
-              "RelativeToolTip": "WebApp\\Migrations\\20240627073400_Init6.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:34:00.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IUsersRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\IUsersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:01:06.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ResumeViewModel.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\ResumeViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\ResumeViewModel.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\ResumeViewModel.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\ResumeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:40:30.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IRolesRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IRolesRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\IRolesRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\IRolesRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\IRolesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:16:14.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RolesSQLRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\RolesSQLRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\SQL\\RolesSQLRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\SQL\\RolesSQLRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\SQL\\RolesSQLRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:16:49.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ILocationsRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\ILocationsRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\DataStore\\Interfaces\\ILocationsRepository.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\DataStore\\Interfaces\\ILocationsRepository.cs",
-              "RelativeToolTip": "WebApp\\DataStore\\Interfaces\\ILocationsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:49:58.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Register.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Home\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T04:37:46.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Role.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Role.cs",
-              "RelativeToolTip": "WebApp\\Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:07:26.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\User.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\User.cs",
-              "RelativeToolTip": "WebApp\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:01:57.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\appsettings.json",
-              "RelativeToolTip": "WebApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-27T05:37:16.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 3,
               "Title": "_config.json",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\_config.json",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\_config.json",
               "RelativeDocumentMoniker": "WebApp\\_config.json",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\_config.json",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\_config.json",
               "RelativeToolTip": "WebApp\\_config.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-27T05:46:55.232Z"
+              "WhenOpened": "2024-06-27T12:34:02.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Category.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Category.cs",
-              "RelativeToolTip": "WebApp\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:44:54.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "JobApplication.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\JobApplication.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\JobApplication.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\JobApplication.cs",
-              "RelativeToolTip": "WebApp\\Models\\JobApplication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:44:51.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "JobApplicationStatus.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\JobApplicationStatus.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\JobApplicationStatus.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\JobApplicationStatus.cs",
-              "RelativeToolTip": "WebApp\\Models\\JobApplicationStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:44:11.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T04:12:06.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddUserViewModel.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\AddUserViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\AddUserViewModel.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\AddUserViewModel.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\AddUserViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T04:13:09.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Location.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Location.cs",
-              "RelativeToolTip": "WebApp\\Models\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T05:08:24.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T04:34:18.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\_ViewStart.cshtml",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T04:55:12.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Job.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Models\\Job.cs",
-              "RelativeToolTip": "WebApp\\Models\\Job.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:44:52.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\ViewModels\\UserViewModel.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\UserViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:55:45.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20240627034507_Init.cs",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Migrations\\20240627034507_Init.cs",
-              "RelativeDocumentMoniker": "WebApp\\Migrations\\20240627034507_Init.cs",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\Migrations\\20240627034507_Init.cs",
-              "RelativeToolTip": "WebApp\\Migrations\\20240627034507_Init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:45:07.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "WebApp.csproj",
-              "DocumentMoniker": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\WebApp.csproj",
-              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
-              "ToolTip": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\WebApp.csproj",
-              "RelativeToolTip": "WebApp\\WebApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-27T03:31:57.774Z"
+              "WhenOpened": "2024-06-27T12:34:00.932Z",
+              "EditorCaption": ""
             }
           ]
         }

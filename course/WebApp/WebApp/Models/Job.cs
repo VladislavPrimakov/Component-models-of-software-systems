@@ -13,8 +13,10 @@ namespace WebApp.Models
         public string Description { get; set; } = string.Empty;
 
         [Required]
+        [Range(0, int.MaxValue)]
         public int Salary { get; set; }
 
+        [Range(0, int.MaxValue)]
         public int? MinExpirience { get; set; }
 
         [Required]

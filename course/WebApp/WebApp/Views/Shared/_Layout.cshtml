@@ -22,6 +22,7 @@
                     @if (User.FindFirst("role")?.Value == "employer")
                     {
                         <a class="nav-link" asp-controller="Employers" asp-action="MyInfo">My info</a>
+                        <a class="nav-link" asp-controller="Jobs" asp-action="MyJobs">My Jobs</a>
                     }
                 </ul>
             </div>

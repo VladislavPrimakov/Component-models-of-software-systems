@@ -8,5 +8,6 @@ namespace WebApp.DataStore.Interfaces
         void UpdateJob(Job job);
         void DeleteJob(int jobId);
         List<Job> GetAllJobsWithCaregoryAndLocation(int userId);
+        Job? GetJobById(int jobId);
     }
 }
