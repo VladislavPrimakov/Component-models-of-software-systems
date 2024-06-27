@@ -19,9 +19,23 @@ namespace WebApp.Controllers
         }
 
         [Authorize(Policy = "candidates")]
-        public IActionResult Index()
+        public IActionResult Index(JobsViewModel jobsViewModel)
         {
-            return View();
+            if (ModelState.IsValid) {
+                jobsViewModel.Jobs = jobsRepository.GetActiveJobsWithCaregoryAndLocationAndEmployer(jobsViewModel.CategoryId, jobsViewModel.LocationId, jobsViewModel.MinSalary, jobsViewModel.MinExpirience);
+            }
+            jobsViewModel.Locations = locationsRepository.GetLocations().ToList();
+            jobsViewModel.Categories = categoriesRepository.GetCategories().ToList();
+            return View(jobsViewModel);
+        }
+
+        [Authorize(Policy = "candidates")]
+        public IActionResult View(int id)
+        {
+            var job = jobsRepository.GetJobWithEmployerAndLocationAndCatergoryById(id);
+            if (job != null)
+                return View(job);
+            return NotFound();
         }
 
         [Authorize(Policy = "employers")]
@@ -54,13 +68,19 @@ namespace WebApp.Controllers
         }
 
         [Authorize(Policy = "employers")]
-        public IActionResult Edit(int? id)
+        public IActionResult Edit(int id)
         {
-            var jobViewModel = new JobViewModel();
-            jobViewModel.Categories = categoriesRepository.GetCategories().ToList();
-            jobViewModel.Locations = locationsRepository.GetLocations().ToList();
-            ViewBag.Action = "Edit";
-            return View(jobViewModel);
+            var job = jobsRepository.GetJobById(id);
+            if (job != null)
+            {
+                var jobViewModel = new JobViewModel();
+                jobViewModel.Job = job;
+                jobViewModel.Categories = categoriesRepository.GetCategories().ToList();
+                jobViewModel.Locations = locationsRepository.GetLocations().ToList();
+                ViewBag.Action = "Edit";
+                return View(jobViewModel);
+            }
+            return NotFound();
         }
 
         [Authorize(Policy = "employers")]
@@ -69,8 +89,8 @@ namespace WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                jobsRepository.AddJob(int.Parse(User.FindFirst("id")!.Value), jobViewModel.Job);
-                return Redirect(nameof(MyJobs));
+                jobsRepository.UpdateJob(jobViewModel.Job);
+                return RedirectToAction(nameof(MyJobs));
             }
             ViewBag.Action = "Edit";
             jobViewModel.Categories = categoriesRepository.GetCategories().ToList();
@@ -79,10 +99,8 @@ namespace WebApp.Controllers
         }
 
         [Authorize(Policy = "employers")]
-        public IActionResult Delete(int? id) {
-            if (id != null) {
+        public IActionResult Delete(int id) {
             jobsRepository.DeleteJob(id);
-        }
             return RedirectToAction(nameof(MyJobs));
         
         }

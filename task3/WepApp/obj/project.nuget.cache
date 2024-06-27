@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KmJHmLvV0+o=",
+  "dgSpecHash": "iBUAI8wGg0I=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Component-models-of-software-systems\\task3\\WepApp\\WepApp.csproj",
+  "projectFilePath": "C:\\Projects\\Component models of software systems\\task3\\WepApp\\WepApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prima\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\prima\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

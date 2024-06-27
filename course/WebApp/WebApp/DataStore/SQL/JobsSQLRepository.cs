@@ -33,6 +33,23 @@ namespace WebApp.DataStore.SQL
             }
         }
 
+        public List<Job> GetActiveJobsWithCaregoryAndLocationAndEmployer(int? categoryId, int? locationID, int? minSalary, int? minExpirience)
+        {
+            IQueryable<Job> jobs = db.Jobs;
+            jobs = jobs.Where(j => j.IsActive == true);
+            if (categoryId != null && categoryId != 0)
+                jobs = jobs.Where(j => j.CategoryId == categoryId);
+            if (locationID != null && locationID != 0)
+                jobs = jobs.Where(j => j.LocationId == locationID);
+            if (minSalary != null)
+                jobs = jobs.Where(j => j.Salary >= minSalary);
+            if (minExpirience != null)
+                jobs = jobs.Where(j => j.MinExpirience >= minExpirience);
+            jobs = jobs.OrderBy(j => j.Salary).ThenBy(j => j.MinExpirience).ThenBy(j => j.PostedAt);
+            jobs = jobs.Include(j => j.Category).Include(j => j.Location).Include(j => j.Employer);
+            return jobs.ToList();
+        }
+
         public List<Job> GetAllJobsWithCaregoryAndLocation(int userId)
         {
             int employerId = db.Employers.Where(e => e.UserId == userId).Select(e => e.EmployerId).FirstOrDefault();
@@ -47,6 +64,16 @@ namespace WebApp.DataStore.SQL
         public Job? GetJobById(int jobId)
         {
             return db.Jobs.Find(jobId);
+        }
+
+        public Job? GetJobWithEmployerAndLocationAndCatergoryById(int jobId)
+        {
+            return db.Jobs
+                .Include(j => j.Category)
+                .Include(j => j.Location)
+                .Include(j => j.Employer)
+                .Where(j => j.JobId == jobId)
+                .FirstOrDefault();
         }
 
         public void UpdateJob(Job job)

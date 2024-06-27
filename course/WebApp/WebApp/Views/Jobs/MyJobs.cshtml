@@ -39,7 +39,7 @@
                     <td>@job?.Location?.Name</td>
                     <td>@job?.Category?.Name</td>
                     <td><a class="btn btn-link" asp-controller="jobs" asp-action="edit" asp-route-id="@job!.JobId">Edit</a></td>
-                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="delete" asp-route-categoryid="@job!.JobId">Delete</a></td>
+                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="delete" asp-route-id="@job!.JobId">Delete</a></td>
                 </tr>
             }
         </tbody>

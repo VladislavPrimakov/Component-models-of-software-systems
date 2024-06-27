@@ -1,0 +1,83 @@
+﻿@using WebApp.ViewModels
+
+@model JobsViewModel
+
+@{
+    ViewBag.Title = "Find Jobs";
+    int maxLength = 100;
+}
+<form method="get" asp-controller="jobs" asp-action="index">
+    <div class="row justify-content-center">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <div class="col mx-1">
+            <label asp-for="MinSalary"></label>
+            <input type="number" asp-for="MinSalary"></input>
+        </div>
+        <div class="col mx-1">
+            <label asp-for="MinExpirience"></label>
+            <input type="number" asp-for="MinExpirience"></input>
+        </div>
+        <div class="col mx-1">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId">
+                <option value="0">All</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.CategoryId">@category.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col mx-1">
+            <label asp-for="LocationId"></label>
+            <select asp-for="LocationId">
+                <option value="0">All</option>
+                @foreach (var location in Model.Locations)
+                {
+                    <option value="@location.LocationId">@location.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col my-1">
+                <input class="btn btn-primary" type="submit" value="Search"></input>
+        </div>
+    </div>
+</form>
+
+@if (Model != null && Model.Jobs.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Company name</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Salary</th>
+                <th>Minimum Expirience</th>
+                <th>Posted At</th>
+                <th>Location</th>
+                <th>Category</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var job in Model.Jobs)
+            {
+                <tr>
+                    <td>@job?.Employer?.CompanyName</td>
+                    <td>@($"{(job.Title.Length > maxLength ? job.Title.Substring(0, maxLength) + "..." : job.Title)}")</td>
+                    <td>@($"{(job.Description.Length > maxLength ? job.Description.Substring(0, maxLength) + "..." : job.Description)}")</td>
+                    <td>@job.Salary</td>
+                    <td>@job.MinExpirience</td>
+                    <td>@job.PostedAt</td>
+                    <td>@job?.Location?.Name</td>
+                    <td>@job?.Category?.Name</td>
+                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="view" asp-route-id="@job!.JobId">View</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div row>Not found any job</div>    
+}

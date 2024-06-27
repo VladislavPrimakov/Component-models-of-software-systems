@@ -1,0 +1,49 @@
+﻿@using WebApp.ViewModels
+@using WebApp.Models
+
+@model Job
+@{
+    ViewBag.Title = "View Job";
+}
+<div class="justify-content-center">
+    <div class="row my-1">
+        <label class="col-2" asp-for="Employer!.CompanyName"></label>
+        <input class="col-6" readonly type="text" asp-for="Employer!.CompanyName"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Employer!.CompanyDescription"></label>
+        <textarea class="col-6" readonly type="text" asp-for="Employer!.CompanyDescription"></textarea>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Employer!.Contacts"></label>
+        <textarea class="col-6" readonly type="text" asp-for="Employer!.Contacts"></textarea>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Title"></label>
+        <input class="col-6" readonly type="text" asp-for="Title"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Description"></label>
+        <textarea class="col-6" readonly type="text" asp-for="Description"></textarea>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Salary"></label>
+        <input class="col-6" readonly type="number" asp-for="Salary"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="MinExpirience"></label>
+        <input class="col-6" readonly type="number" asp-for="MinExpirience"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="PostedAt"></label>
+        <input class="col-6" readonly type="date" asp-for="PostedAt"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Category!.Name"></label>
+        <input class="col-6" readonly type="text" asp-for="Category!.Name"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Location!.Name"></label>
+        <input class="col-6" readonly type="text" asp-for="Location!.Name"></input>
+    </div>
+</div>

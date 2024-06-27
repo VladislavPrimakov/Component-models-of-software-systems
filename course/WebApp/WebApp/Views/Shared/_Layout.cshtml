@@ -18,6 +18,7 @@
                     @if (User.FindFirst("role")?.Value == "candidate")
                     {
                         <a class="nav-link" asp-controller="Resumes" asp-action="MyResume">My resume</a>
+                        <a class="nav-link" asp-controller="Jobs" asp-action="Index">Find Job</a>
                     }
                     @if (User.FindFirst("role")?.Value == "employer")
                     {
