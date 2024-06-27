@@ -64,14 +64,14 @@
             {
                 <tr>
                     <td>@job?.Employer?.CompanyName</td>
-                    <td>@($"{(job.Title.Length > maxLength ? job.Title.Substring(0, maxLength) + "..." : job.Title)}")</td>
-                    <td>@($"{(job.Description.Length > maxLength ? job.Description.Substring(0, maxLength) + "..." : job.Description)}")</td>
-                    <td>@job.Salary</td>
-                    <td>@job.MinExperience</td>
-                    <td>@job.PostedAt</td>
+                    <td>@($"{(job?.Title.Length > maxLength ? job?.Title.Substring(0, maxLength) + "..." : job?.Title)}")</td>
+                    <td>@($"{(job?.Description.Length > maxLength ? job?.Description.Substring(0, maxLength) + "..." : job?.Description)}")</td>
+                    <td>@job?.Salary</td>
+                    <td>@job?.MinExperience</td>
+                    <td>@job?.PostedAt</td>
                     <td>@job?.Location?.Name</td>
                     <td>@job?.Category?.Name</td>
-                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="view" asp-route-id="@job!.JobId">View</a></td>
+                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="view" asp-route-id="@job?.JobId">View</a></td>
                 </tr>
             }
         </tbody>

@@ -41,7 +41,7 @@ namespace WepApp.Controllers
                 }
                 var claims = new List<Claim> {
                     new Claim("name", user.Email),
-                    new Claim("role", user?.Role?.Name),
+                    new Claim("role", user!.Role!.Name),
                     new Claim("id", user.UserId.ToString())
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, "Cookies");

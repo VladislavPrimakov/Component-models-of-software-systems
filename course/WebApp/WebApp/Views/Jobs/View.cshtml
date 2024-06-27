@@ -46,4 +46,16 @@
         <label class="col-2" asp-for="Location!.Name"></label>
         <input class="col-6" readonly type="text" asp-for="Location!.Name"></input>
     </div>
+    @if (User.FindFirstValue("role") == "candidate")
+    {
+        <hr>
+        <form method="post" asp-controller="JobApplications" asp-action="AddFromCandidate">
+            <input type="hidden" name="jobId" value="@Model.JobId"></input>
+            <div class="row my-1">
+                <div class="d-flex justify-content-center col-8">
+                    <input type="submit" class="btn btn-primary" value="Send job application"></input>
+                </div>
+            </div>
+        </form>
+    }
 </div>

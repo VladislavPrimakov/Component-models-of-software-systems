@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApp.DataStore.Interfaces;
 using WebApp.Models;
 
@@ -17,8 +18,7 @@ namespace WebApp.Controllers
         [Authorize(Policy = "employers")]
         public IActionResult MyInfo()
         {
-            return View(employersRepository.GetEmmployerByUserId(int.Parse(User.FindFirst("id")!.Value))
-);
+            return View(employersRepository.GetEmmployerByUserId(int.Parse(User.FindFirstValue("id") ?? "0")));
         }
 
         [Authorize(Policy = "employers")]

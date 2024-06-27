@@ -50,7 +50,16 @@ namespace WebApp.DataStore.SQL
             return jobs.ToList();
         }
 
-        public List<Job> GetAllJobsWithCaregoryAndLocation(int userId)
+        public List<Job> GetAllActiveJobsByUserId(int userId)
+        {
+            int employerId = db.Employers.Where(e => e.UserId == userId).Select(e => e.EmployerId).FirstOrDefault();
+            return db.Jobs
+                .Where(j => j.IsActive == true && j.EmployerId == employerId)
+                .OrderBy(j => j.PostedAt)
+                .ToList();
+        }
+
+        public List<Job> GetAllJobsWithCaregoryAndLocationByUserId(int userId)
         {
             int employerId = db.Employers.Where(e => e.UserId == userId).Select(e => e.EmployerId).FirstOrDefault();
             return db.Jobs

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApp.DataStore.Interfaces;
 using WebApp.ViewModels;
 
@@ -29,7 +30,7 @@ namespace WebApp.Controllers
             return View(jobsViewModel);
         }
 
-        [Authorize(Policy = "candidates")]
+        [Authorize]
         public IActionResult View(int id)
         {
             var job = jobsRepository.GetJobWithEmployerAndLocationAndCatergoryById(id);
@@ -40,7 +41,7 @@ namespace WebApp.Controllers
 
         [Authorize(Policy = "employers")]
         public IActionResult MyJobs() {
-            var jobs = jobsRepository.GetAllJobsWithCaregoryAndLocation(int.Parse(User.FindFirst("id")!.Value));
+            var jobs = jobsRepository.GetAllJobsWithCaregoryAndLocationByUserId(int.Parse(User.FindFirstValue("id") ?? ""));
             return View(jobs); 
         }
 
@@ -58,7 +59,7 @@ namespace WebApp.Controllers
         public IActionResult Add(JobViewModel jobViewModel)
         {
             if (ModelState.IsValid) {
-                jobsRepository.AddJob(int.Parse(User.FindFirst("id")!.Value), jobViewModel.Job);
+                jobsRepository.AddJob(int.Parse(User.FindFirstValue("id") ?? "0"), jobViewModel.Job);
                 return Redirect(nameof(MyJobs));
             }
             jobViewModel.Categories = categoriesRepository.GetCategories().ToList();

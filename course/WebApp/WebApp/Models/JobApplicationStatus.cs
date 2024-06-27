@@ -1,12 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace WebApp.Models
+﻿namespace WebApp.Models
 {
-    public class JobApplicationStatus
+    public enum JobApplicationStatus
     {
-        public int JobApplicationStatusId { get; set; }
-
-        [Required]
-        public string Name { get; set; } = string.Empty;
+        NewFromCandidate = 1,
+        NewFromEmployer = 2,
+        Accepted = 3,
+        Rejected = 4,
     }
 }

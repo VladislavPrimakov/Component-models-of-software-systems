@@ -3,6 +3,9 @@
 
 @model List<JobApplication>
 
+@{
+    var type = ViewBag.Type;
+}
 @if (Model != null && Model.Count() > 0)
 {
     <table class="table table-striped">
@@ -13,12 +16,19 @@
                 <th>Resume education</th>
                 <th>Resume location</th>
                 <th>Resume category</th>
+                <th>Link to Resume</th>
                 <th>Job company name</th>
                 <th>Job title</th>
                 <th>Job salary</th>
                 <th>Job minimum experience</th>
                 <th>Job location</th>
                 <th>Job category</th>
+                <th>Link to Job</th>
+                @if (type == "inbox")
+                {
+                    <th></th>
+                    <th></th>
+                }
             </tr>
         </thead>
         <tbody>
@@ -30,12 +40,29 @@
                     <td>@jobApplication?.Resume?.Education</td>
                     <td>@jobApplication?.Resume?.Location?.Name</td>
                     <td>@jobApplication?.Resume?.Category?.Name</td>
+                    <td><a asp-controller="resumes" asp-action="view" asp-route-id="@jobApplication?.ResumeId">Resume</a></td>
                     <td>@jobApplication?.Job?.Employer?.CompanyName</td>
                     <td>@jobApplication?.Job?.Title</td>
                     <td>@jobApplication?.Job?.Salary</td>
                     <td>@jobApplication?.Job?.MinExperience</td>
                     <td>@jobApplication?.Job?.Location?.Name</td>
                     <td>@jobApplication?.Job?.Category?.Name</td>
+                    <td><a asp-controller="jobs" asp-action="view" asp-route-id="@jobApplication?.JobId">Job</a></td>
+                    @if (type == "inbox")
+                    {
+                            <td>
+                                <form asp-controller="JobApplications" asp-action="Accept" method="post">
+                                    <input type="hidden" name="jobApplicationId" value="@jobApplication?.JobApplicationId" />
+                                    <button type="submit" class="btn btn-primary">Accept</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form asp-controller="JobApplications" asp-action="Reject" method="post">
+                                    <input type="hidden" name="jobApplicationId" value="@jobApplication?.JobApplicationId" />
+                                    <button type="submit" class="btn btn-danger">Reject</button>
+                                </form>
+                            </td>
+                    }
                 </tr>
             }
         </tbody>

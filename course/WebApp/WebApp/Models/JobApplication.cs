@@ -7,8 +7,7 @@ namespace WebApp.Models
         public int JobApplicationId { get; set; }
 
         [Required]
-        public int JobApplicationStatusId { get; set; }
-        public JobApplicationStatus? JobApplicationStatus { get; set; }
+        public JobApplicationStatus JobApplicationStatus { get; set; }
 
         [Required]
         public DateTime UpdatedAt { get; set; }

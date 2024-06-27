@@ -16,5 +16,8 @@ namespace WepApp.Models
         [Required]
         public int RoleId { get; set; }
         public Role? Role { get; set; }
+
+        public Employer? Employer { get; set; }
+        public Resume? Resume { get; set; }
     }
 }

@@ -7,7 +7,8 @@ namespace WebApp.DataStore.Interfaces
         void AddJob(int userId, Job job);
         void UpdateJob(Job job);
         void DeleteJob(int jobId);
-        List<Job> GetAllJobsWithCaregoryAndLocation(int userId);
+        List<Job> GetAllJobsWithCaregoryAndLocationByUserId(int userId);
+        List<Job> GetAllActiveJobsByUserId(int userId);
         List<Job> GetActiveJobsWithCaregoryAndLocationAndEmployer(int? idCategory, int? idLocation, int? minSalary, int? minExperience);
         Job? GetJobById(int jobId);
         Job? GetJobWithEmployerAndLocationAndCatergoryById(int jobId);

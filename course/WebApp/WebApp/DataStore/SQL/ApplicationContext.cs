@@ -15,7 +15,6 @@ namespace WepApp.DataStore.SQL
         public DbSet<Employer> Employers { get; set; }
         public DbSet<Job> Jobs { get; set; }
         public DbSet<JobApplication> JobApplications { get; set; }
-        public DbSet<JobApplicationStatus> JobApplicationStatuses { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Resume> Resumes { get; set; }
 
@@ -24,14 +23,6 @@ namespace WepApp.DataStore.SQL
             modelBuilder.Entity<Role>().HasData(
                 new Role { Id = 1, Name = "candidate" }, 
                 new Role { Id = 2, Name = "employer" }
-                );
-            modelBuilder.Entity<JobApplicationStatus>().HasData(
-                new JobApplicationStatus { JobApplicationStatusId = 1, Name = "new-from-user" },
-                new JobApplicationStatus { JobApplicationStatusId = 2, Name = "new-from-employer" },
-                new JobApplicationStatus { JobApplicationStatusId = 3, Name = "accepted-from-user" },
-                new JobApplicationStatus { JobApplicationStatusId = 4, Name = "accepted-from-employer" },
-                new JobApplicationStatus { JobApplicationStatusId = 5, Name = "rejected-from-user" },
-                new JobApplicationStatus { JobApplicationStatusId = 6, Name = "rejected-from-employer" }
                 );
             modelBuilder.Entity<Location>().HasData(
                 new Location { LocationId = 1, Name = "Kyiv" },

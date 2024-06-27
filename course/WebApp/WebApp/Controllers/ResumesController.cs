@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApp.DataStore.Interfaces;
 using WebApp.ViewModels;
 
@@ -32,14 +33,14 @@ namespace WebApp.Controllers
             return View(resumesViewModel);
         }
 
-        [Authorize(Policy = "employers")]
+        [Authorize]
         public IActionResult View(int id) {
             var resume = resumeRepository.GetResumeWithCategoryAndLocationById(id);
             if (resume != null)
             {
                 var viewResumeViewModel = new ViewResumeViewModel();
                 viewResumeViewModel.Resume = resume;
-                viewResumeViewModel.Jobs = jobsRepository.GetAllJobsWithCaregoryAndLocation(int.Parse(User.FindFirst("id")!.Value)).ToList();
+                viewResumeViewModel.Jobs = jobsRepository.GetAllActiveJobsByUserId(int.Parse(User.FindFirstValue("id") ?? "0")).ToList();
                 return View(viewResumeViewModel);
             }
             return NotFound();
@@ -49,7 +50,7 @@ namespace WebApp.Controllers
         public IActionResult MyResume() {
             var resumeViewModel = new ResumeViewModel
             {
-                Resume = resumeRepository.GetResumeByUserId(int.Parse(User.FindFirst("id")!.Value)),
+                Resume = resumeRepository.GetResumeByUserId(int.Parse(User.FindFirstValue("id") ?? "0")),
                 Categories = categoriesRepository.GetCategories().ToList(),
                 Locations = locationsRepository.GetLocations().ToList()
             };
@@ -60,7 +61,7 @@ namespace WebApp.Controllers
         [HttpPost]
         public IActionResult MyResume(ResumeViewModel resumeViewModel)
         {
-            if (ModelState.IsValid) {
+            if (ModelState.IsValid && resumeViewModel.Resume != null) {
                 resumeRepository.UpdateResume(resumeViewModel.Resume);
                 return RedirectToAction(nameof(MyResume));
             }

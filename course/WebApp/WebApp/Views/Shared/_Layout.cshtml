@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -15,12 +16,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    @if (User.FindFirst("role")?.Value == "candidate")
+                    @if (User.FindFirstValue("role") == "candidate")
                     {
                         <a class="nav-link" asp-controller="Resumes" asp-action="MyResume">My resume</a>
                         <a class="nav-link" asp-controller="Jobs" asp-action="Index">Find Job</a>
                     }
-                    @if (User.FindFirst("role")?.Value == "employer")
+                    @if (User.FindFirstValue("role") == "employer")
                     {
                         <a class="nav-link" asp-controller="Employers" asp-action="MyInfo">My info</a>
                         <a class="nav-link" asp-controller="Jobs" asp-action="MyJobs">My Jobs</a>
@@ -32,7 +33,7 @@
             <div class="d-flex justify-content-end">
                 @if (@User?.Identity?.IsAuthenticated == true)
                 {
-                    <p>@User.FindFirst("role")!.Value | @User.FindFirst("name")!.Value</p>
+                    <p>@User.FindFirstValue("role") | @User.FindFirstValue("name")</p>
                     <a class="btn btn-primary mx-1" asp-controller="Home" asp-action="Logout">Logout</a>
                 }
                 else

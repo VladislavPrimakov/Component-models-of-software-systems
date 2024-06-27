@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ONZaIDL8yr4=",
+  "dgSpecHash": "DrpZhJWaylY=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Component-models-of-software-systems\\course\\WebApp\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Projects\\Component models of software systems\\course\\WebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prima\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\prima\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",

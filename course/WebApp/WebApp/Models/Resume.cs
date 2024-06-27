@@ -26,7 +26,8 @@ namespace WebApp.Models
 
         [Required]
         public int UserId { get; set; }
-        
+        public User? User { get; set; }
+
         public int? LocationId { get; set; }
         public Location? Location { get; set; }
 

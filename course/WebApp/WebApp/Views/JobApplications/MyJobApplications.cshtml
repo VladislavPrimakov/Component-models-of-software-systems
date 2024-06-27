@@ -1,10 +1,18 @@
-﻿@using WebApp.ViewModels
+﻿@using Microsoft.AspNetCore.Html
+@using WebApp.ViewModels
 @using WebApp.Models
 
 @model JobApplicationsViewModel
 
 @{
     ViewBag.Title = "My Job Applications";
+}
+@functions {
+    public IHtmlContent RenderTableListJobApplications(IEnumerable<JobApplication> jobApplications, string type)
+    {
+        ViewBag.Type = type;
+        return Html.Partial("_TableListJobApplications", jobApplications);
+    }
 }
 <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -16,15 +24,15 @@
 </nav>
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-inbox" role="tabpanel" aria-labelledby="nav-inbox-tab">
-        <partial name="_TableListJobApplications" model="@Model.InboxJobApplications" />
+        @RenderTableListJobApplications(Model.InboxJobApplications, "inbox")
     </div>
     <div class="tab-pane fade" id="nav-new" role="tabpanel" aria-labelledby="nav-new-tab">
-        <partial name="_TableListJobApplications" model="@Model.NewJobApplications" />
+        @RenderTableListJobApplications(Model.NewJobApplications, "new")
     </div>
     <div class="tab-pane fade" id="nav-accepted" role="tabpanel" aria-labelledby="nav-accepted-tab">
-        <partial name="_TableListJobApplications" model="@Model.AcceptedJobApplications" />
+        @RenderTableListJobApplications(Model.AcceptedJobApplications, "accepted")
     </div>
     <div class="tab-pane fade" id="nav-rejected" role="tabpanel" aria-labelledby="nav-rejected-tab">
-        <partial name="_TableListJobApplications" model="@Model.RejectedJobApplications" />
+        @RenderTableListJobApplications(Model.RejectedJobApplications, "rejected")
     </div>
 </div>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApp.DataStore.Interfaces;
 using WebApp.ViewModels;
 
@@ -17,7 +18,7 @@ namespace WebApp.Controllers
         [Authorize]
         public IActionResult MyJobApplications() {
             var jobApplicationsViewModel = new JobApplicationsViewModel();
-            int userId = int.Parse(User.FindFirst("id")!.Value);
+            int userId = int.Parse(User.FindFirstValue("id") ?? "0");
             jobApplicationsViewModel.NewJobApplications = jobApplicationsRepository.GetNewJobApplicationsWithResumeAndJobByUserId(userId).ToList();
             jobApplicationsViewModel.AcceptedJobApplications = jobApplicationsRepository.GetAcceptedJobApplicationsWithResumeAndJobByUserId(userId).ToList();
             jobApplicationsViewModel.RejectedJobApplications = jobApplicationsRepository.GetRejectedJobApplicationsWithResumeAndJobByUserId(userId).ToList();
@@ -35,5 +36,37 @@ namespace WebApp.Controllers
                 return RedirectToAction(nameof(MyJobApplications));
             return NotFound();
         }
+
+        [Authorize(Policy = "candidates")]
+        [HttpPost]
+        public IActionResult AddFromCandidate(int jobId)
+        {
+            int userId = int.Parse(User.FindFirstValue("id") ?? "0");
+            var isAdded = jobApplicationsRepository.AddJobApplicationFromCandidate(userId, jobId);
+            if (isAdded)
+                return RedirectToAction(nameof(MyJobApplications));
+            return NotFound();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult Accept(int jobApplicationId)
+        {
+            var isAdded = jobApplicationsRepository.AcceptJobApplication(jobApplicationId);
+            if (isAdded)
+                return RedirectToAction(nameof(MyJobApplications));
+            return NotFound();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult Reject(int jobApplicationId)
+        {
+            var isAdded = jobApplicationsRepository.RejectJobApplication(jobApplicationId);
+            if (isAdded)
+                return RedirectToAction(nameof(MyJobApplications));
+            return NotFound();
+        }
+
     }
 }
