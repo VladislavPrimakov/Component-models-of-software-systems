@@ -17,7 +17,7 @@ namespace WebApp.Models
         public DateOnly UpdatedAt { get; set; }
 
         [Range(0, int.MaxValue)]
-        public int? Expirience { get; set; }
+        public int? Experience { get; set; }
 
         public string? Education { get; set; }
 

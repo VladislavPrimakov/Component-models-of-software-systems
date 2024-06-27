@@ -17,7 +17,7 @@
                 <th>Title</th>
                 <th>Description</th>
                 <th>Salary</th>
-                <th>Minimum Expirience</th>
+                <th>Minimum Experience</th>
                 <th>Posted At</th>
                 <th>Is Active</th>
                 <th>Location</th>
@@ -33,7 +33,7 @@
                     <td>@($"{(job.Title.Length > maxLength ? job.Title.Substring(0, maxLength) + "..." : job.Title)}")</td>
                     <td>@($"{(job.Description.Length > maxLength ? job.Description.Substring(0, maxLength) + "..." : job.Description)}")</td>
                     <td>@job.Salary</td>
-                    <td>@job.MinExpirience</td>
+                    <td>@job.MinExperience</td>
                     <td>@job.PostedAt</td>
                     <td><input type="checkbox" disabled @(job.IsActive ? "checked" : "") value="@job.IsActive" /></td>
                     <td>@job?.Location?.Name</td>

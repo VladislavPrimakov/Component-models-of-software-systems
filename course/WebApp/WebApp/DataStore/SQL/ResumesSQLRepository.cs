@@ -14,10 +14,33 @@ namespace WebApp.DataStore.SQL
             this.db = db;
         }
 
+        public List<Resume> GetActiveResumesWithCategoryAndLocation(int? categoryId, int? locationId, int? minExperience)
+        {
+            IQueryable<Resume> resumes = db.Resumes;
+            resumes = resumes.Where(r => r.IsActive == true);
+            if (categoryId != null && categoryId != 0)
+                resumes = resumes.Where(r => r.CategoryId == categoryId);
+            if (locationId != null && locationId != 0)
+                resumes = resumes.Where(r => r.LocationId == locationId);
+            if (minExperience != null)
+                resumes = resumes.Where(r => r.Experience >= minExperience);
+            resumes = resumes.OrderBy(r => r.Experience).ThenBy(r => r.UpdatedAt);
+            resumes = resumes.Include(r => r.Category).Include(r => r.Location);
+            return resumes.ToList();
+        }
 
         public Resume? GetResumeByUserId(int userId)
         {
             return db.Resumes.Where(r => r.UserId == userId).FirstOrDefault();
+        }
+
+        public Resume? GetResumeWithCategoryAndLocationById(int id)
+        {
+            return db.Resumes
+                .Include(r => r.Category)
+                .Include(r => r.Location)
+                .Where(r => r.ResumeId == id)
+                .FirstOrDefault();
         }
 
         public void UpdateResume(Resume resume)
@@ -27,7 +50,7 @@ namespace WebApp.DataStore.SQL
             {
                 _resume.Title = resume.Title;
                 _resume.Description = resume.Description;
-                _resume.Expirience = resume.Expirience;
+                _resume.Experience = resume.Experience;
                 _resume.Education = resume.Education;
                 _resume.CategoryId = resume.CategoryId;
                 _resume.LocationId = resume.LocationId;

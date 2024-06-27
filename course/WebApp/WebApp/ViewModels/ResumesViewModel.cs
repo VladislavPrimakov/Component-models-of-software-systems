@@ -3,14 +3,11 @@ using WebApp.Models;
 
 namespace WebApp.ViewModels
 {
-    public class JobsViewModel
+    public class ResumesViewModel
     {
-        public List<Job> Jobs { get; set; } = new List<Job>();
+        public List<Resume> Resumes { get; set; } = new List<Resume>();
         public int? CategoryId { get; set; }
         public int? LocationId { get; set; }
-
-        [Range(0, int.MaxValue)]
-        public int? MinSalary { get; set; }
 
         [Range(0, int.MaxValue)]
         public int? MinExperience { get; set; }

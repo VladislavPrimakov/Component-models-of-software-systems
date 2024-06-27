@@ -12,8 +12,8 @@ using WepApp.DataStore.SQL;
 namespace WebApp.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240627063325_Init4")]
-    partial class Init4
+    [Migration("20240627161646_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,58 @@ namespace WebApp.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            Name = "Accounting & Finance"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            Name = "Administrative & Office Support"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            Name = "Advertising & Marketing"
+                        },
+                        new
+                        {
+                            CategoryId = 4,
+                            Name = "Architecture & Engineering"
+                        },
+                        new
+                        {
+                            CategoryId = 5,
+                            Name = "Arts, Entertainment & Media"
+                        },
+                        new
+                        {
+                            CategoryId = 6,
+                            Name = "Customer Service & Call Center"
+                        },
+                        new
+                        {
+                            CategoryId = 7,
+                            Name = "Education & Training"
+                        },
+                        new
+                        {
+                            CategoryId = 8,
+                            Name = "Healthcare & Medical"
+                        },
+                        new
+                        {
+                            CategoryId = 9,
+                            Name = "Hospitality & Travel"
+                        },
+                        new
+                        {
+                            CategoryId = 10,
+                            Name = "Human Resources"
+                        });
                 });
 
             modelBuilder.Entity("WebApp.Models.Employer", b =>
@@ -96,7 +148,7 @@ namespace WebApp.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("MinExpirience")
+                    b.Property<int?>("MinExperience")
                         .HasColumnType("integer");
 
                     b.Property<DateOnly>("PostedAt")
@@ -215,6 +267,23 @@ namespace WebApp.Migrations
                     b.HasKey("LocationId");
 
                     b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            LocationId = 1,
+                            Name = "Kyiv"
+                        },
+                        new
+                        {
+                            LocationId = 2,
+                            Name = "Zaporizhzhia"
+                        },
+                        new
+                        {
+                            LocationId = 3,
+                            Name = "Dnipro"
+                        });
                 });
 
             modelBuilder.Entity("WebApp.Models.Resume", b =>
@@ -235,8 +304,11 @@ namespace WebApp.Migrations
                     b.Property<string>("Education")
                         .HasColumnType("text");
 
-                    b.Property<int?>("Expirience")
+                    b.Property<int?>("Experience")
                         .HasColumnType("integer");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("boolean");
 
                     b.Property<int?>("LocationId")
                         .HasColumnType("integer");

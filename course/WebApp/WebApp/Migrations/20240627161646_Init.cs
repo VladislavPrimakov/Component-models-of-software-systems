@@ -67,6 +67,37 @@ namespace WebApp.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Resumes",
+                columns: table => new
+                {
+                    ResumeId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Title = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    UpdatedAt = table.Column<DateOnly>(type: "date", nullable: false),
+                    Experience = table.Column<int>(type: "integer", nullable: true),
+                    Education = table.Column<string>(type: "text", nullable: true),
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false),
+                    UserId = table.Column<int>(type: "integer", nullable: false),
+                    LocationId = table.Column<int>(type: "integer", nullable: true),
+                    CategoryId = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Resumes", x => x.ResumeId);
+                    table.ForeignKey(
+                        name: "FK_Resumes_Categories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "Categories",
+                        principalColumn: "CategoryId");
+                    table.ForeignKey(
+                        name: "FK_Resumes_Locations_LocationId",
+                        column: x => x.LocationId,
+                        principalTable: "Locations",
+                        principalColumn: "LocationId");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -110,44 +141,6 @@ namespace WebApp.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Resumes",
-                columns: table => new
-                {
-                    ResumeId = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Title = table.Column<string>(type: "text", nullable: false),
-                    Description = table.Column<string>(type: "text", nullable: false),
-                    UpdatedAt = table.Column<DateOnly>(type: "date", nullable: false),
-                    Expirience = table.Column<int>(type: "integer", nullable: true),
-                    Education = table.Column<string>(type: "text", nullable: true),
-                    UserId = table.Column<int>(type: "integer", nullable: false),
-                    LocationId = table.Column<int>(type: "integer", nullable: false),
-                    CategoryId = table.Column<int>(type: "integer", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Resumes", x => x.ResumeId);
-                    table.ForeignKey(
-                        name: "FK_Resumes_Categories_CategoryId",
-                        column: x => x.CategoryId,
-                        principalTable: "Categories",
-                        principalColumn: "CategoryId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Resumes_Locations_LocationId",
-                        column: x => x.LocationId,
-                        principalTable: "Locations",
-                        principalColumn: "LocationId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Resumes_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Jobs",
                 columns: table => new
                 {
@@ -156,7 +149,7 @@ namespace WebApp.Migrations
                     Title = table.Column<string>(type: "text", nullable: false),
                     Description = table.Column<string>(type: "text", nullable: false),
                     Salary = table.Column<int>(type: "integer", nullable: false),
-                    MinExpirience = table.Column<int>(type: "integer", nullable: true),
+                    MinExperience = table.Column<int>(type: "integer", nullable: true),
                     PostedAt = table.Column<DateOnly>(type: "date", nullable: false),
                     IsActive = table.Column<bool>(type: "boolean", nullable: false),
                     EmployerId = table.Column<int>(type: "integer", nullable: false),
@@ -221,6 +214,23 @@ namespace WebApp.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryId", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Accounting & Finance" },
+                    { 2, "Administrative & Office Support" },
+                    { 3, "Advertising & Marketing" },
+                    { 4, "Architecture & Engineering" },
+                    { 5, "Arts, Entertainment & Media" },
+                    { 6, "Customer Service & Call Center" },
+                    { 7, "Education & Training" },
+                    { 8, "Healthcare & Medical" },
+                    { 9, "Hospitality & Travel" },
+                    { 10, "Human Resources" }
+                });
+
+            migrationBuilder.InsertData(
                 table: "JobApplicationStatuses",
                 columns: new[] { "JobApplicationStatusId", "Name" },
                 values: new object[,]
@@ -231,6 +241,16 @@ namespace WebApp.Migrations
                     { 4, "accepted-from-employer" },
                     { 5, "rejected-from-user" },
                     { 6, "rejected-from-employer" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Locations",
+                columns: new[] { "LocationId", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Kyiv" },
+                    { 2, "Zaporizhzhia" },
+                    { 3, "Dnipro" }
                 });
 
             migrationBuilder.InsertData(
@@ -245,8 +265,7 @@ namespace WebApp.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Employers_UserId",
                 table: "Employers",
-                column: "UserId",
-                unique: true);
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_JobApplications_JobApplicationStatusId",
@@ -287,12 +306,6 @@ namespace WebApp.Migrations
                 name: "IX_Resumes_LocationId",
                 table: "Resumes",
                 column: "LocationId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Resumes_UserId",
-                table: "Resumes",
-                column: "UserId",
-                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Users_RoleId",

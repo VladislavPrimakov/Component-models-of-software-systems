@@ -10,18 +10,39 @@ namespace WebApp.Controllers
         private readonly IResumesRepository resumeRepository;
         private readonly ICategoriesRepository categoriesRepository;
         private readonly ILocationsRepository locationsRepository;
+        private readonly IJobsRepository jobsRepository;
 
-        public ResumesController(IResumesRepository resumeRepository, ICategoriesRepository categoriesRepository, ILocationsRepository locationsRepository)
+        public ResumesController(IResumesRepository resumeRepository, ICategoriesRepository categoriesRepository, ILocationsRepository locationsRepository, IJobsRepository jobsRepository)
         {
             this.resumeRepository = resumeRepository;
             this.categoriesRepository = categoriesRepository;
             this.locationsRepository = locationsRepository;
+            this.jobsRepository = jobsRepository;
         }
 
         [Authorize(Policy = "employers")]
-        public IActionResult Index()
+        public IActionResult Index(ResumesViewModel resumesViewModel)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                resumesViewModel.Resumes = resumeRepository.GetActiveResumesWithCategoryAndLocation(resumesViewModel.CategoryId, resumesViewModel.LocationId, resumesViewModel.MinExperience);
+            }
+            resumesViewModel.Locations = locationsRepository.GetLocations().ToList();
+            resumesViewModel.Categories = categoriesRepository.GetCategories().ToList();
+            return View(resumesViewModel);
+        }
+
+        [Authorize(Policy = "employers")]
+        public IActionResult View(int id) {
+            var resume = resumeRepository.GetResumeWithCategoryAndLocationById(id);
+            if (resume != null)
+            {
+                var viewResumeViewModel = new ViewResumeViewModel();
+                viewResumeViewModel.Resume = resume;
+                viewResumeViewModel.Jobs = jobsRepository.GetAllJobsWithCaregoryAndLocation(int.Parse(User.FindFirst("id")!.Value)).ToList();
+                return View(viewResumeViewModel);
+            }
+            return NotFound();
         }
 
         [Authorize(Policy = "candidates")]

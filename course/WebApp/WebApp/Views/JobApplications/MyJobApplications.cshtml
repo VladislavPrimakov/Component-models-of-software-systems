@@ -1,0 +1,30 @@
+﻿@using WebApp.ViewModels
+@using WebApp.Models
+
+@model JobApplicationsViewModel
+
+@{
+    ViewBag.Title = "My Job Applications";
+}
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-inbox-tab" data-bs-toggle="tab" data-bs-target="#nav-inbox" type="button" role="tab" aria-controls="nav-inbox" aria-selected="true">Inbox (@Model.InboxJobApplications.Count)</button>
+        <button class="nav-link" id="nav-new-tab" data-bs-toggle="tab" data-bs-target="#nav-new" type="button" role="tab" aria-controls="nav-new" aria-selected="false">New (@Model.NewJobApplications.Count)</button>
+        <button class="nav-link" id="nav-accepted-tab" data-bs-toggle="tab" data-bs-target="#nav-accepted" type="button" role="tab" aria-controls="nav-accepted" aria-selected="false">Accepted (@Model.AcceptedJobApplications.Count)</button>
+        <button class="nav-link" id="nav-rejected-tab" data-bs-toggle="tab" data-bs-target="#nav-rejected" type="button" role="tab" aria-controls="nav-rejected" aria-selected="false">Rejected (@Model.RejectedJobApplications.Count)</button>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-inbox" role="tabpanel" aria-labelledby="nav-inbox-tab">
+        <partial name="_TableListJobApplications" model="@Model.InboxJobApplications" />
+    </div>
+    <div class="tab-pane fade" id="nav-new" role="tabpanel" aria-labelledby="nav-new-tab">
+        <partial name="_TableListJobApplications" model="@Model.NewJobApplications" />
+    </div>
+    <div class="tab-pane fade" id="nav-accepted" role="tabpanel" aria-labelledby="nav-accepted-tab">
+        <partial name="_TableListJobApplications" model="@Model.AcceptedJobApplications" />
+    </div>
+    <div class="tab-pane fade" id="nav-rejected" role="tabpanel" aria-labelledby="nav-rejected-tab">
+        <partial name="_TableListJobApplications" model="@Model.RejectedJobApplications" />
+    </div>
+</div>

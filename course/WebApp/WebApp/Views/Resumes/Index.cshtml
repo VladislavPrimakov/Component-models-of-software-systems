@@ -1,18 +1,14 @@
 ﻿@using WebApp.ViewModels
 
-@model JobsViewModel
+@model ResumesViewModel
 
 @{
-    ViewBag.Title = "Find Jobs";
+    ViewBag.Title = "Find Candidates";
     int maxLength = 100;
 }
-<form method="get" asp-controller="jobs" asp-action="index">
+<form method="get" asp-controller="resumes" asp-action="index">
     <div class="row justify-content-center">
         <div class="text-danger" asp-validation-summary="All"></div>
-        <div class="col mx-1">
-            <label asp-for="MinSalary"></label>
-            <input type="number" asp-for="MinSalary"></input>
-        </div>
         <div class="col mx-1">
             <label asp-for="MinExperience"></label>
             <input type="number" asp-for="MinExperience"></input>
@@ -38,40 +34,38 @@
             </select>
         </div>
         <div class="col my-1">
-                <input class="btn btn-primary" type="submit" value="Search"></input>
+            <input class="btn btn-primary" type="submit" value="Search"></input>
         </div>
     </div>
 </form>
 
-@if (Model != null && Model.Jobs.Count() > 0)
+@if (Model != null && Model.Resumes.Count() > 0)
 {
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Company name</th>
                 <th>Title</th>
                 <th>Description</th>
-                <th>Salary</th>
-                <th>Minimum Experience</th>
-                <th>Posted At</th>
+                <th>Education</th>
+                <th>Experience</th>
+                <th>Updated At</th>
                 <th>Location</th>
                 <th>Category</th>
                 <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var job in Model.Jobs)
+            @foreach (var resume in Model.Resumes)
             {
                 <tr>
-                    <td>@job?.Employer?.CompanyName</td>
-                    <td>@($"{(job.Title.Length > maxLength ? job.Title.Substring(0, maxLength) + "..." : job.Title)}")</td>
-                    <td>@($"{(job.Description.Length > maxLength ? job.Description.Substring(0, maxLength) + "..." : job.Description)}")</td>
-                    <td>@job.Salary</td>
-                    <td>@job.MinExperience</td>
-                    <td>@job.PostedAt</td>
-                    <td>@job?.Location?.Name</td>
-                    <td>@job?.Category?.Name</td>
-                    <td><a class="btn btn-link" asp-controller="jobs" asp-action="view" asp-route-id="@job!.JobId">View</a></td>
+                    <td>@resume.Title</td>
+                    <td>@($"{(resume.Description.Length > maxLength ? resume.Description.Substring(0, maxLength) + "..." : resume.Description)}")</td>
+                    <td>@resume.Education</td>
+                    <td>@resume.Experience</td>
+                    <td>@resume.UpdatedAt</td>
+                    <td>@resume?.Location?.Name</td>
+                    <td>@resume?.Category?.Name</td>
+                    <td><a class="btn btn-link" asp-controller="resumes" asp-action="view" asp-route-id="@resume!.ResumeId">View</a></td>
                 </tr>
             }
         </tbody>
@@ -79,5 +73,5 @@
 }
 else
 {
-    <div row>Not found any job</div>    
+    <div row>Not found any candidate</div>
 }

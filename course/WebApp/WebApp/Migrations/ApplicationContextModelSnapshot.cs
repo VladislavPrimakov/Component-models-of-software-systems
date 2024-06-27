@@ -145,7 +145,7 @@ namespace WebApp.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("MinExpirience")
+                    b.Property<int?>("MinExperience")
                         .HasColumnType("integer");
 
                     b.Property<DateOnly>("PostedAt")
@@ -301,7 +301,7 @@ namespace WebApp.Migrations
                     b.Property<string>("Education")
                         .HasColumnType("text");
 
-                    b.Property<int?>("Expirience")
+                    b.Property<int?>("Experience")
                         .HasColumnType("integer");
 
                     b.Property<bool>("IsActive")

@@ -1,0 +1,51 @@
+﻿@using WebApp.ViewModels
+@using WebApp.Models
+
+@model ViewResumeViewModel
+@{
+    ViewBag.Title = "View Job";
+}
+<div class="justify-content-center">
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Title"></label>
+        <input class="col-6" readonly type="text" asp-for="Resume.Title"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Description"></label>
+        <textarea class="col-6" readonly asp-for="Resume.Description"></textarea>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Education"></label>
+        <textarea class="col-6" readonly asp-for="Resume.Education"></textarea>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Experience"></label>
+        <input class="col-6" readonly type="number" asp-for="Resume.Experience"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.UpdatedAt"></label>
+        <input class="col-6" readonly type="date" asp-for="Resume.UpdatedAt"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Category!.Name"></label>
+        <input class="col-6" readonly type="text" asp-for="Resume.Category!.Name"></input>
+    </div>
+    <div class="row my-1">
+        <label class="col-2" asp-for="Resume.Location!.Name"></label>
+        <input class="col-6" readonly type="text" asp-for="Resume.Location!.Name"></input>
+    </div>
+    <hr>
+    <form method="post" asp-controller="JobApplications" asp-action="AddFromEmployer">
+        <input type="hidden" name="resumeId" value="@Model.Resume.ResumeId"></input>
+        <div class="row my-1">
+            <label class="col-2" asp-for="jobId"></label>
+            <select class="col-6" asp-for="jobId" asp-items="@(new SelectList(Model.Jobs, nameof(Job.JobId), nameof(Job.Title)))"></select>
+        </div>
+        <div class="row my-1">
+            <div class="d-flex justify-content-center col-8">
+                <input type="submit" class="btn btn-primary" value="Send job application"></input>
+            </div>
+        </div>
+    </form>
+    
+</div>

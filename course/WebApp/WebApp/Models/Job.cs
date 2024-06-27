@@ -17,7 +17,7 @@ namespace WebApp.Models
         public int Salary { get; set; }
 
         [Range(0, int.MaxValue)]
-        public int? MinExpirience { get; set; }
+        public int? MinExperience { get; set; }
 
         [Required]
         public DateOnly PostedAt { get; set; }

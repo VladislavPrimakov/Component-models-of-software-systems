@@ -1,0 +1,43 @@
+﻿@using WebApp.ViewModels
+@using WebApp.Models
+
+@model List<JobApplication>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Resume title</th>
+                <th>Resume experience</th>
+                <th>Resume education</th>
+                <th>Resume location</th>
+                <th>Resume category</th>
+                <th>Job company name</th>
+                <th>Job title</th>
+                <th>Job salary</th>
+                <th>Job minimum experience</th>
+                <th>Job location</th>
+                <th>Job category</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jobApplication in Model)
+            {
+                <tr>
+                    <td>@jobApplication?.Resume?.Title</td>
+                    <td>@jobApplication?.Resume?.Experience</td>
+                    <td>@jobApplication?.Resume?.Education</td>
+                    <td>@jobApplication?.Resume?.Location?.Name</td>
+                    <td>@jobApplication?.Resume?.Category?.Name</td>
+                    <td>@jobApplication?.Job?.Employer?.CompanyName</td>
+                    <td>@jobApplication?.Job?.Title</td>
+                    <td>@jobApplication?.Job?.Salary</td>
+                    <td>@jobApplication?.Job?.MinExperience</td>
+                    <td>@jobApplication?.Job?.Location?.Name</td>
+                    <td>@jobApplication?.Job?.Category?.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

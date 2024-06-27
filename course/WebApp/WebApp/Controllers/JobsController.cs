@@ -22,7 +22,7 @@ namespace WebApp.Controllers
         public IActionResult Index(JobsViewModel jobsViewModel)
         {
             if (ModelState.IsValid) {
-                jobsViewModel.Jobs = jobsRepository.GetActiveJobsWithCaregoryAndLocationAndEmployer(jobsViewModel.CategoryId, jobsViewModel.LocationId, jobsViewModel.MinSalary, jobsViewModel.MinExpirience);
+                jobsViewModel.Jobs = jobsRepository.GetActiveJobsWithCaregoryAndLocationAndEmployer(jobsViewModel.CategoryId, jobsViewModel.LocationId, jobsViewModel.MinSalary, jobsViewModel.MinExperience);
             }
             jobsViewModel.Locations = locationsRepository.GetLocations().ToList();
             jobsViewModel.Categories = categoriesRepository.GetCategories().ToList();

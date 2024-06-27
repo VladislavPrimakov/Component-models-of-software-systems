@@ -33,7 +33,7 @@ namespace WebApp.DataStore.SQL
             }
         }
 
-        public List<Job> GetActiveJobsWithCaregoryAndLocationAndEmployer(int? categoryId, int? locationID, int? minSalary, int? minExpirience)
+        public List<Job> GetActiveJobsWithCaregoryAndLocationAndEmployer(int? categoryId, int? locationID, int? minSalary, int? minExperience)
         {
             IQueryable<Job> jobs = db.Jobs;
             jobs = jobs.Where(j => j.IsActive == true);
@@ -43,9 +43,9 @@ namespace WebApp.DataStore.SQL
                 jobs = jobs.Where(j => j.LocationId == locationID);
             if (minSalary != null)
                 jobs = jobs.Where(j => j.Salary >= minSalary);
-            if (minExpirience != null)
-                jobs = jobs.Where(j => j.MinExpirience >= minExpirience);
-            jobs = jobs.OrderBy(j => j.Salary).ThenBy(j => j.MinExpirience).ThenBy(j => j.PostedAt);
+            if (minExperience != null)
+                jobs = jobs.Where(j => j.MinExperience >= minExperience);
+            jobs = jobs.OrderBy(j => j.Salary).ThenBy(j => j.MinExperience).ThenBy(j => j.PostedAt);
             jobs = jobs.Include(j => j.Category).Include(j => j.Location).Include(j => j.Employer);
             return jobs.ToList();
         }
@@ -84,7 +84,7 @@ namespace WebApp.DataStore.SQL
                 _job.Title = job.Title;
                 _job.Description = job.Description;
                 _job.Salary = job.Salary;
-                _job.MinExpirience = job.MinExpirience;
+                _job.MinExperience = job.MinExperience;
                 _job.IsActive = job.IsActive;
                 _job.LocationId = job.LocationId;
                 _job.CategoryId = job.CategoryId;

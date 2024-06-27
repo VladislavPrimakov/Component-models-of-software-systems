@@ -20,6 +20,7 @@ builder.Services.AddScoped<ICategoriesRepository, CategoriesSQLRepository>();
 builder.Services.AddScoped<ILocationsRepository, LocationsSQLRepository>();
 builder.Services.AddScoped<IEmployersRepository, EmployersSQLRepository>();
 builder.Services.AddScoped<IJobsRepository, JobsSQLRepository>();
+builder.Services.AddScoped<IJobApplicationsRepository, JobApplicationsSQLRepository>();
 
 builder.Services.AddControllersWithViews();
 
