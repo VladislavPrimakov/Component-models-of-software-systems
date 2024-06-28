@@ -14,7 +14,5 @@ namespace WebApp.DataStore.Interfaces
         IEnumerable<JobApplication> GetNewJobApplicationsWithResumeAndJobByUserId(int userId);
         IEnumerable<JobApplication> GetAcceptedJobApplicationsWithResumeAndJobByUserId(int userId);
         IEnumerable<JobApplication> GetRejectedJobApplicationsWithResumeAndJobByUserId(int userId);
-
-
     }
 }

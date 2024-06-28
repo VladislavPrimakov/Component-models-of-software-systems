@@ -14,6 +14,15 @@ namespace WepApp.DataStore.SQL
             this.db = db;
         }
 
+        public bool CanManageJob(int userId, int jobId)
+        {
+            var employer = db.Employers.Where(e  => e.UserId == userId).FirstOrDefault();
+            if (employer == null) return false;
+            var job = db.Jobs.Where(j => j.JobId == jobId && j.EmployerId == employer.EmployerId).FirstOrDefault();
+            if (job == null) return false;
+            return true;
+        }
+
         public User? Login(string email, string password)
         {
             return db.Users

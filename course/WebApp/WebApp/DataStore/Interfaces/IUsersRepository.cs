@@ -6,5 +6,6 @@ namespace WepApp.DataStore.Interfaces
     {
         User? Login(string email, string password);
         bool Register(User user);
+        bool CanManageJob(int userId, int jobId);
     }
 }

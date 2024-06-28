@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebApp.DataStore.Interfaces;
 using WebApp.ViewModels;
+using WepApp.DataStore.Interfaces;
 
 namespace WebApp.Controllers
 {
@@ -11,12 +12,14 @@ namespace WebApp.Controllers
         private readonly IJobsRepository jobsRepository;
         private readonly ILocationsRepository locationsRepository;
         private readonly ICategoriesRepository categoriesRepository;
+        private readonly IUsersRepository usersRepository;
 
-        public JobsController(IJobsRepository jobsRepository, ILocationsRepository locationsRepository, ICategoriesRepository categoriesRepository)
+        public JobsController(IJobsRepository jobsRepository, ILocationsRepository locationsRepository, ICategoriesRepository categoriesRepository, IUsersRepository usersRepository)
         {
             this.jobsRepository = jobsRepository;
             this.locationsRepository = locationsRepository;
             this.categoriesRepository = categoriesRepository;
+            this.usersRepository = usersRepository;
         }
 
         [Authorize(Policy = "candidates")]
@@ -74,12 +77,16 @@ namespace WebApp.Controllers
             var job = jobsRepository.GetJobById(id);
             if (job != null)
             {
-                var jobViewModel = new JobViewModel();
-                jobViewModel.Job = job;
-                jobViewModel.Categories = categoriesRepository.GetCategories().ToList();
-                jobViewModel.Locations = locationsRepository.GetLocations().ToList();
-                ViewBag.Action = "Edit";
-                return View(jobViewModel);
+                bool canManage = usersRepository.CanManageJob(int.Parse(User.FindFirstValue("id") ?? "0"), id);
+                if (canManage)
+                {
+                    var jobViewModel = new JobViewModel();
+                    jobViewModel.Job = job;
+                    jobViewModel.Categories = categoriesRepository.GetCategories().ToList();
+                    jobViewModel.Locations = locationsRepository.GetLocations().ToList();
+                    ViewBag.Action = "Edit";
+                    return View(jobViewModel);
+                }
             }
             return NotFound();
         }
