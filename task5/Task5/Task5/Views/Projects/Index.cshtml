@@ -1,0 +1,58 @@
+﻿@model List<Project>
+
+<div class="container">
+    <a class="btn btn-primary" asp-controller="projects" asp-action="Add">Add Project</a>
+    <a class="btn btn-primary" asp-controller="risks" asp-action="Add">Add Risk</a>
+</div>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Project name</th>
+                <th>Project base cost</th>
+                <th>List of risks</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var project in Model)
+            {
+                <tr>
+                    <td>@project.Name</td>
+                    <td>@project.BaseCost</td>
+                    <td>
+                        <ul>
+                        @foreach (var risk in project.Risks!)
+                        {
+                            <li>
+                                Probability: @risk.Probability
+                            </li>
+                            <li>
+                                Impact: @risk.Impact
+                            </li>
+                            <li>
+                                    <form method="post" asp-controller="risks" asp-action="delete">
+                                        <input type="hidden" name="id" value="@risk.RiskId"></input>
+                                        <button class="btn btn-primary" type="submit">Delete Risk</button>
+                                    </form>
+                            </li>
+                        }
+                        </ul>
+                    </td>
+                    <td>
+                        <form method="post" asp-controller="projects" asp-action="delete">
+                            <input type="hidden" name="id" value="@project.ProjectId"></input>
+                            <button class="btn btn-primary" type="submit">Delete Project</button>
+                        </form>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

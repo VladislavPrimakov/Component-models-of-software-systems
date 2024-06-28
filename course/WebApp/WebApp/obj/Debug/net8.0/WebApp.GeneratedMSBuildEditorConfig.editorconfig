@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Projects\Component models of software systems\course\WebApp\WebApp\
+build_property.ProjectDir = C:\Projects\Component-models-of-software-systems\course\WebApp\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Projects\Component models of software systems\course\WebApp\WebApp
+build_property.MSBuildProjectDirectory = C:\Projects\Component-models-of-software-systems\course\WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Employers/MyInfo.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Employers/MyInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXE15SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Home/Login.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Home/Register.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/JobApplications/MyJobApplications.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/JobApplications/MyJobApplications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXE15Sm9iQXBwbGljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/JobApplications/_TableListJobApplications.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/JobApplications/_TableListJobApplications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXF9UYWJsZUxpc3RKb2JBcHBsaWNhdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/Add.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/Edit.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/Index.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/MyJobs.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/MyJobs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xNeUpvYnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/View.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Jobs/_JobForm.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Jobs/_JobForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xfSm9iRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Resumes/Index.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Resumes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Resumes/MyResume.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Resumes/MyResume.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lc1xNeVJlc3VtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Resumes/View.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Resumes/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lc1xWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/Shared/_Layout.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/_ViewImports.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Component models of software systems/course/WebApp/WebApp/Views/_ViewStart.cshtml]
+[C:/Projects/Component-models-of-software-systems/course/WebApp/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

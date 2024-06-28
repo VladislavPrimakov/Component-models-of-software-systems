@@ -1,0 +1,17 @@
+﻿@model RiskViewModel
+
+<form method="post" asp-controller="risks" asp-action="add">
+    <div class="row">
+        <label class="col-2" asp-for="Risk.Impact"></label>
+        <input class="col-10" type="number" asp-for="Risk.Impact"></input>
+    </div>
+        <div class="row">
+        <label class="col-2" asp-for="Risk.Probability"></label>
+        <input class="col-10" type="number" step="0.01" asp-for="Risk.Probability"></input>
+    </div>
+    <div class="row">
+        <label class="col-2" asp-for="Risk.ProjectId"></label>
+        <select class="col-10" asp-for="Risk.ProjectId" asp-items="@(new SelectList(Model.Projects, nameof(Project.ProjectId), nameof(Project.Name)))"></select>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Add Risk"></input>
+</form>

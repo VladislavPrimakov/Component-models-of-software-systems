@@ -1,0 +1,13 @@
+﻿@model Project
+
+<form method="post" asp-controller="projects" asp-action="add">
+    <div class="row">
+        <label class="col-2" asp-for="Name"></label>
+        <input class="col-10" type="text" asp-for="Name"></input>
+    </div>
+    <div class="row">
+        <label class="col-2" asp-for="BaseCost"></label>
+        <input class="col-10" type="number" asp-for="BaseCost"></input>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Add Project"></input>
+</form>
