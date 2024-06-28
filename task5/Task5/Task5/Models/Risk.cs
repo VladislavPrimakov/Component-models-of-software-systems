@@ -7,6 +7,7 @@ namespace Task5.Models
         public int RiskId { get; set; }
 
         [Required]
+        [Range(0, 1)]
         public double Probability { get; set; }
 
         [Required]

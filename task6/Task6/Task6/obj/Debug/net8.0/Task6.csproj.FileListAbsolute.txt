@@ -1,0 +1,15 @@
+C:\Projects\Component models of software systems\task6\Task6\Task6\bin\Debug\net8.0\Task6.exe
+C:\Projects\Component models of software systems\task6\Task6\Task6\bin\Debug\net8.0\Task6.deps.json
+C:\Projects\Component models of software systems\task6\Task6\Task6\bin\Debug\net8.0\Task6.runtimeconfig.json
+C:\Projects\Component models of software systems\task6\Task6\Task6\bin\Debug\net8.0\Task6.dll
+C:\Projects\Component models of software systems\task6\Task6\Task6\bin\Debug\net8.0\Task6.pdb
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.AssemblyInfoInputs.cache
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.AssemblyInfo.cs
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.csproj.CoreCompileInputs.cache
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.sourcelink.json
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.dll
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\refint\Task6.dll
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.pdb
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\Task6.genruntimeconfig.cache
+C:\Projects\Component models of software systems\task6\Task6\Task6\obj\Debug\net8.0\ref\Task6.dll

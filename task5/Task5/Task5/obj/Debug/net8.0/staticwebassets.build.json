@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KSM/ErcKgrisZQ/3q6iuKa2YRoMVsaOM/CTmeSc9kfI=",
+  "Hash": "Vvfb+W8XLBz2tp1onVs/IGV+eUlM+TD3puKyFDJScmw=",
   "Source": "Task5",
   "BasePath": "_content/Task5",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Task5\\wwwroot",
       "Source": "Task5",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Task5.styles.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Task5.styles.css",
       "SourceId": "Task5",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Task5",
       "RelativePath": "Task5.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Task5.styles.css"
+      "OriginalItemSpec": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Task5.styles.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Task5.bundle.scp.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Task5.bundle.scp.css",
       "SourceId": "Task5",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Task5",
       "RelativePath": "Task5.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Task5.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Task5.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Task5",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\Component-models-of-software-systems\\task5\\Task5\\Task5\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Component models of software systems\\task5\\Task5\\Task5\\wwwroot\\",
       "BasePath": "_content/Task5",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
